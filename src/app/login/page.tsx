@@ -84,7 +84,7 @@ export default function Login() {
             </div> */}
             </div>
             <Button
-              onClick={() => router.push("/category-management/position")}
+              onClick={() => router.push("/dashboard")}
               className="text-Sm mt-5 !text-gray-0 bg-blue-25"
             >
               Đăng nhập

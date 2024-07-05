@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Dashboard",
+    "submenu": [
+      { "title": "Overview", "path": "/overview" },
+      { "title": "Stats", "path": "/stats" }
+    ]
+  },
+  {
+    "title": "Quản lý danh mục",
+    "submenu": [
+      { "title": "Đơn vị / Phòng ban", "path": "/department" },
+      { "title": "Chức vụ", "path": "/position" },
+      { "title": "Cấp địa bàn", "path": "/area-level" },
+      { "title": "Giới tính", "path": "/gender" },
+      { "title": "Loại bản", "path": "/copy-type" },
+      { "title": "Vật mang tin", "path": "/data-carrier" },
+      { "title": "Ngôn ngữ", "path": "/language" },
+      { "title": "Giá trị đặc biệt", "path": "/special-value" },
+      { "title": "Loại băng đĩa", "path": "/tape-type" },
+      { "title": "Loại ghi âm", "path": "/record-type" }
+    ]
+  },
+  {
+    "title": "Quản lý danh mục",
+    "submenu": [
+      { "title": "Đơn vị / Phòng ban", "path": "/department" },
+      { "title": "Chức vụ", "path": "/position" },
+      { "title": "Cấp địa bàn", "path": "/area-level" },
+      { "title": "Giới tính", "path": "/gender" },
+      { "title": "Loại bản", "path": "/copy-type" },
+      { "title": "Vật mang tin", "path": "/data-carrier" },
+      { "title": "Ngôn ngữ", "path": "/language" },
+      { "title": "Giá trị đặc biệt", "path": "/special-value" },
+      { "title": "Loại băng đĩa", "path": "/tape-type" },
+      { "title": "Loại ghi âm", "path": "/record-type" }
+    ]
+  },
+  {
+    "title": "Quản lý danh mục",
+    "submenu": [
+      { "title": "Đơn vị / Phòng ban", "path": "/department" },
+      { "title": "Chức vụ", "path": "/position" },
+      { "title": "Cấp địa bàn", "path": "/area-level" },
+      { "title": "Giới tính", "path": "/gender" },
+      { "title": "Loại bản", "path": "/copy-type" },
+      { "title": "Vật mang tin", "path": "/data-carrier" },
+      { "title": "Ngôn ngữ", "path": "/language" },
+      { "title": "Giá trị đặc biệt", "path": "/special-value" },
+      { "title": "Loại băng đĩa", "path": "/tape-type" },
+      { "title": "Loại ghi âm", "path": "/record-type" }
+    ]
+  },
+  {
+    "title": "Quản lý danh mục",
+    "submenu": [
+      { "title": "Đơn vị / Phòng ban", "path": "/department" },
+      { "title": "Chức vụ", "path": "/position" },
+      { "title": "Cấp địa bàn", "path": "/area-level" },
+      { "title": "Giới tính", "path": "/gender" },
+      { "title": "Loại bản", "path": "/copy-type" },
+      { "title": "Vật mang tin", "path": "/data-carrier" },
+      { "title": "Ngôn ngữ", "path": "/language" },
+      { "title": "Giá trị đặc biệt", "path": "/special-value" },
+      { "title": "Loại băng đĩa", "path": "/tape-type" },
+      { "title": "Loại ghi âm", "path": "/record-type" }
+    ]
+  }
+]

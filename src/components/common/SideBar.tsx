@@ -1,84 +1,21 @@
 // src/components/common/Sidebar.js
-import { ChevronDown, ChevronUp } from "lucide-react";
-import React, { useState } from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
-
-const menuData = [
-  {
-    title: "Dashboard",
-    submenu: [
-      { title: "Overview", path: "/overview" },
-      { title: "Stats", path: "/stats" },
-    ],
-  },
-  {
-    title: "Quản lý danh mục",
-    submenu: [
-      { title: "Đơn vị / Phòng ban", path: "/profile" },
-      { title: "Chức vụ", path: "/account" },
-      { title: "Cấp địa bàn", path: "/account" },
-      { title: "Giới tính", path: "/account" },
-      { title: "Loại bản", path: "/account" },
-      { title: "Vật mang tin", path: "/account" },
-      { title: "Ngôn ngữ", path: "/account" },
-      { title: "Giá trị đặc biệ", path: "/account" },
-      { title: "Loại băng đĩa", path: "/account" },
-      { title: "Loại ghi âm", path: "/account" },
-    ],
-  },
-  {
-    title: "Quản lý danh mục",
-    submenu: [
-      { title: "Đơn vị / Phòng ban", path: "/profile" },
-      { title: "Chức vụ", path: "/account" },
-      { title: "Cấp địa bàn", path: "/account" },
-      { title: "Giới tính", path: "/account" },
-      { title: "Loại bản", path: "/account" },
-      { title: "Vật mang tin", path: "/account" },
-      { title: "Ngôn ngữ", path: "/account" },
-      { title: "Giá trị đặc biệ", path: "/account" },
-      { title: "Loại băng đĩa", path: "/account" },
-      { title: "Loại ghi âm", path: "/account" },
-    ],
-  },
-  {
-    title: "Quản lý danh mục",
-    submenu: [
-      { title: "Đơn vị / Phòng ban", path: "/profile" },
-      { title: "Chức vụ", path: "/account" },
-      { title: "Cấp địa bàn", path: "/account" },
-      { title: "Giới tính", path: "/account" },
-      { title: "Loại bản", path: "/account" },
-      { title: "Vật mang tin", path: "/account" },
-      { title: "Ngôn ngữ", path: "/account" },
-      { title: "Giá trị đặc biệ", path: "/account" },
-      { title: "Loại băng đĩa", path: "/account" },
-      { title: "Loại ghi âm", path: "/account" },
-    ],
-  },
-  {
-    title: "Quản lý danh mục",
-    submenu: [
-      { title: "Đơn vị / Phòng ban", path: "/profile" },
-      { title: "Chức vụ", path: "/account" },
-      { title: "Cấp địa bàn", path: "/account" },
-      { title: "Giới tính", path: "/account" },
-      { title: "Loại bản", path: "/account" },
-      { title: "Vật mang tin", path: "/account" },
-      { title: "Ngôn ngữ", path: "/account" },
-      { title: "Giá trị đặc biệ", path: "/account" },
-      { title: "Loại băng đĩa", path: "/account" },
-      { title: "Loại ghi âm", path: "/account" },
-    ],
-  },
-  { title: "Help", path: "/help" },
-];
+import { useRouter } from "next/navigation";
+import { ChevronDown, ChevronUp } from "lucide-react";
+import menuData from "../../data/menuData.json";
 
 const Sidebar = () => {
   const [openMenu, setOpenMenu] = useState(null);
+  const router = useRouter();
 
   const handleMenuClick = (index: any) => {
     setOpenMenu(openMenu === index ? null : index);
+  };
+
+  const handleSubmenuClick = (path: any) => {
+    router.push("/category-management/" + path);
   };
 
   return (
@@ -94,7 +31,7 @@ const Sidebar = () => {
                     alt={""}
                     width={20}
                     height={20}
-                  ></Image>
+                  />
                   <button onClick={() => handleMenuClick(index)}>
                     {menu.title}
                   </button>
@@ -107,15 +44,21 @@ const Sidebar = () => {
                 {openMenu === index && (
                   <ul className="list-image-[url(/images/device.png)]">
                     {menu.submenu.map((submenu, subIndex) => (
-                      <li key={subIndex} className="">
-                        <a href={submenu.path}>{submenu.title}</a>
+                      <li key={subIndex}>
+                        <button
+                          onClick={() => handleSubmenuClick(submenu.path)}
+                        >
+                          {submenu.title}
+                        </button>
                       </li>
                     ))}
                   </ul>
                 )}
               </>
             ) : (
-              <a href={menu.path}>{menu.title}</a>
+              <button onClick={() => handleSubmenuClick(menu.path)}>
+                {menu.title}
+              </button>
             )}
           </li>
         ))}
