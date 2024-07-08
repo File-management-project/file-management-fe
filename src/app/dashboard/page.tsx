@@ -14,7 +14,7 @@ export default function Department() {
   const data = departmentData.data;
 
   const [currentPage, setCurrentPage] = useState(1);
-  const rowsPerPage = 3;
+  const rowsPerPage = 10;
   const totalPages = Math.ceil(data.length / rowsPerPage);
 
   const handlePageChange = (page: any) => {
@@ -29,7 +29,7 @@ export default function Department() {
   return (
     <div>
       <LayoutWeb>
-        <div className="p-4 h-full">
+        <div className="p-4 h-full bg-gray-50">
           <h1 className="text-displaySm text-gray-950">Dashboard</h1>
           <div className="flex justify-between mb-8 mt-8">
             <div className="h-fit">

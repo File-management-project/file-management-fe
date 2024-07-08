@@ -59,6 +59,13 @@ const config: Config = {
       // },
     },
   },
+  variants: {
+    extend: {
+      innerHeight: ["last"],
+      outerHeight: ["last"],
+      eight: ["last"],
+    },
+  },
   plugins: [require("daisyui")],
 };
 export default config;

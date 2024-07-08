@@ -1,0 +1,20 @@
+{
+  "title": "Thêm loại hình văn bản",
+  "fields": [
+    {
+      "label": "Mã Loại hình văn bản",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên loại hình văn bản",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}

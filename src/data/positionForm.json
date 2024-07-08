@@ -1,0 +1,20 @@
+{
+  "title": "Thêm Chức vụ",
+  "fields": [
+    {
+      "label": "Mã Chức vụ",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên Chức vụ",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}

@@ -36,7 +36,7 @@ body {
 .panel {
   position: fixed;
   top: 0;
-  left: -300px; /* Khởi đầu ngoài màn hình */
+  left: -560px; /* Khởi đầu ngoài màn hình */
   width: 300px;
   height: 100%;
   background-color: white;

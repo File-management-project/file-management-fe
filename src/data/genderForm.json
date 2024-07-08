@@ -1,0 +1,20 @@
+{
+  "title": "Thêm giới tính",
+  "fields": [
+    {
+      "label": "Mã giới tính",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên giới tính",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}

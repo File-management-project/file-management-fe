@@ -12,8 +12,8 @@ type BreadcrumbProps = {
 
 const Breadcrumb: React.FC<BreadcrumbProps> = ({ crumbs }) => {
   return (
-    <nav className="text-[#5A5A5A] text-sm">
-      <ol className="list-none p-0 inline-flex">
+    <div className="text-[#5A5A5A] text-sm breadcrumbs">
+      <ul className="list-none p-0 inline-flex">
         {crumbs.map((crumb, index) => (
           <li key={index} className="flex items-center gap-x-1">
             <a
@@ -23,12 +23,12 @@ const Breadcrumb: React.FC<BreadcrumbProps> = ({ crumbs }) => {
               {crumb.title}
             </a>
             {index < crumbs.length - 1 && (
-              <ArrowRight className="text-lightBlue-700" size={16} />
+              <ArrowRight className="text-lightBlue-700" size={12} />
             )}
           </li>
         ))}
-      </ol>
-    </nav>
+      </ul>
+    </div>
   );
 };
 

@@ -1,0 +1,20 @@
+{
+  "title": "Thêm vật mang tin",
+  "fields": [
+    {
+      "label": "Mã vật mang tin",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên vật mang tin",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}

@@ -90,7 +90,7 @@ export const Input = ({
             onFocus={handleFocus}
             {...rest}
           />
-          {value && !error && (
+          {/* {value && !error && (
             <button
               type="button"
               className={classNames("mr-2", hiddenValidate && "hidden")}
@@ -116,7 +116,7 @@ export const Input = ({
                 width={20}
               />
             </button>
-          )}
+          )} */}
           {type === "password" && (
             <button type="button" onClick={handleShowPassword}>
               {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}

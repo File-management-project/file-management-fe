@@ -18,11 +18,13 @@ export default function LayoutWeb({
 }: PropsWithChildren<Props>) {
   const crumbs = [
     { title: "Homepage", url: "/" },
-    { title: "Department", url: "/category-management/position" },
+    { title: "CategoryManagement", url: "/category-management" },
   ];
+
+  console.log("breadCrumbs", breadCrumbs);
   return (
-    <section className="w-full min-h-screen h-max relative bg-gray-50">
-      <header className="flex items-center justify-between p-4 border-b border-gray-200">
+    <section className="w-full min-h-screen h-max relative bg-white text-gray-950">
+      <header className="flex items-center justify-between p-4 border-b border-gray-200 bg-white">
         <div className="flex gap-2">
           <Image
             src={"/images/logo.png"}

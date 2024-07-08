@@ -1,0 +1,20 @@
+{
+  "title": "Thêm Loại ghi âm",
+  "fields": [
+    {
+      "label": "Mã Loại ghi âm",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên Loại ghi âm",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}

@@ -1,129 +1,129 @@
 {
-  "columns": ["Stt", "Mã", "Đơn vị/Phòng ban", "Mô tả", "Ngày tạo"],
+  "columns": ["Stt", "Mã", "Chức vụ", "Mô tả", "Ngày tạo"],
   "data": [
     {
       "Stt": 1,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 2,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 3,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 4,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 5,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 6,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 7,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 8,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 9,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 10,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 11,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 12,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 13,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 14,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 15,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 16,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 17,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     },
     {
       "Stt": 18,
       "Mã": "CV00001",
-      "Đơn vị/Phòng ban": "Cán bộ thu thập",
+      "Chức vụ": "Cán bộ thu thập",
       "Mô tả": "--",
       "Ngày tạo": "13/02/2019 15:24:50"
     }

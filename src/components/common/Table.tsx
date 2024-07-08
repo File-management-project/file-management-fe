@@ -5,7 +5,7 @@ import Action from "./Action";
 const Table = ({ columns, data }: { columns: any[]; data: any[] }) => {
   return (
     <table className="w-full border border-gray-200 rounded-lg">
-      <thead className="mb-2 border-b ">
+      <thead className="mb-2 border-b bg-gray-25">
         <tr className="text-gray-950 text-sm">
           {columns.map((col, index) => (
             <th className="text-start px-8 py-4" key={index}>

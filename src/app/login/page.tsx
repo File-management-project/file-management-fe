@@ -18,7 +18,7 @@ export default function Login() {
     mode: "onChange",
   });
   return (
-    <div className="w-screent h-screen flex flex-col justify-center items-center">
+    <div className="bg-white h-screen flex flex-col justify-center items-center text-gray-950">
       <div className="w-[408px] h-[532px] flex flex-col items-center rounded-lg shadow-[0px_2px_10px_0px_#0000001A] py-8 px-6">
         <Image
           src="/images/logo.png"

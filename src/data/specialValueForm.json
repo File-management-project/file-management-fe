@@ -1,0 +1,20 @@
+{
+  "title": "Thêm Giá trị đặc biệt",
+  "fields": [
+    {
+      "label": "Mã Giá trị đặc biệt",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên Giá trị đặc biệt",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}

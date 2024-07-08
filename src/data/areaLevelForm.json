@@ -1,0 +1,20 @@
+{
+  "title": "Thêm Cấp địa bàn",
+  "fields": [
+    {
+      "label": "Mã Cấp địa bàn",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên Cấp địa bàn",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}

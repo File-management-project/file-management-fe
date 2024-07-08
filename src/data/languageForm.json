@@ -1,0 +1,20 @@
+{
+  "title": "Thêm Ngôn ngữ",
+  "fields": [
+    {
+      "label": "Mã Ngôn ngữ",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên Ngôn ngữ",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}

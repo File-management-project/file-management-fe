@@ -5,10 +5,10 @@ import Pagination from "@/components/common/Pagination";
 import Table from "@/components/common/Table";
 import { Plus } from "lucide-react";
 import React, { useState } from "react";
-import positionData from "@/data/dataCarrierData.json";
+import positionData from "@/data/languageData.json";
 import AddPanel from "@/components/common/AddPanel";
 import Filter from "@/components/common/Filter";
-import formFields from "@/data/dataCarrierForm.json";
+import formFields from "@/data/languageForm.json";
 
 export default function Department() {
   const columns = positionData.columns;
@@ -22,7 +22,7 @@ export default function Department() {
   const breadCrumbs = [
     { title: "Homepage", url: "/" },
     { title: "CategoryManagement", url: "/" },
-    { title: "DataCarrier", url: "/" },
+    { title: "Language", url: "/" },
   ];
 
   const handlePageChange = (page: any) => {
@@ -50,7 +50,7 @@ export default function Department() {
     <div>
       <LayoutWeb breadCrumbs={breadCrumbs}>
         <div className="p-4 h-full bg-gray-50">
-          <h1 className="text-displaySm text-gray-950">Vật mang tin</h1>
+          <h1 className="text-displaySm text-gray-950">Ngôn ngữ</h1>
           <div className="flex justify-between mb-8 mt-8">
             <Filter
               placeholder="Tìm tên theo từ khoá"

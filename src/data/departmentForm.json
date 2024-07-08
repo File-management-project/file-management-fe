@@ -1,0 +1,20 @@
+{
+  "title": "Thêm Đơn vị / Phòng ban",
+  "fields": [
+    {
+      "label": "Mã đơn vị / phòng ban",
+      "name": "code",
+      "type": "text"
+    },
+    {
+      "label": "Tên đơn vị / phòng ban",
+      "name": "name",
+      "type": "text"
+    },
+    {
+      "label": "Mô tả",
+      "name": "description",
+      "type": "textArea"
+    }
+  ]
+}
